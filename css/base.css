@@ -1,0 +1,29 @@
+.shopboard{
+  padding:10px 0 10px 0;
+  background-color:red;
+  color:white;
+  margin:0 auto
+}
+#blacklist{
+  cursor:pointer
+}
+.list{
+  color:black;
+  display:none;
+  position: absolute;
+  top: 52px;
+  right: 53px;
+  width: 124px;
+  padding: 5px;
+  background: #fff;
+  border-radius: 2px;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+}
+.blackshoplist{
+  max-height: 200px;
+  overflow-y: scroll;
+  margin:0px
+}
+.blackshoplist li{
+  padding: 5px 0 5px 0;
+}
